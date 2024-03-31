@@ -1,0 +1,113 @@
+# TODO List
+
+Below is a list of required POSIX commands, and their current status.
+
+Some commands won't be made because of complexity, this is reflected in the status.
+
+## List of POSIX commands (incomplete)
+
+- [ ] alias - for shell to handle
+- [ ] ar - essentially never used, tar is now used instead
+- [ ] at - will complete
+- [ ] awk - plenty of sane implementations exist
+- [ ] basename - will complete
+- [ ] batch - will complete
+- [ ] bc - will complete
+- [x] cat - complete
+- [ ] cd - will complete
+- [ ] chgrp - will complete
+- [ ] chmod - will complete
+- [ ] chown - will complete
+- [ ] cksum - will complete
+- [ ] cmp - will complete
+- [ ] comm - will complete
+- [ ] command - will complete
+- [ ] cp - will complete
+- [ ] crontab - no thanks
+- [ ] csplit - will complete
+- [ ] cut - will complete
+- [ ] date - will complete
+- [ ] dd - will complete
+- [ ] df - will complete
+- [ ] diff - will complete
+- [ ] dirname - will complete
+- [ ] du - will complete
+- [ ] echo - in progress
+- [ ] ed - no one uses ed
+- [ ] env - will complete
+- [ ] expand - will complete
+- [ ] expr - will complete
+- [ ] false - will complete
+- [ ] file - will complete
+- [ ] find - maybe will complete
+- [ ] fold - will complete
+- [ ] gencat - will complete
+- [ ] getconf - will complete
+- [ ] getopts - will complete
+- [ ] grep - just use ripgrep
+- [ ] hash - will complete
+- [ ] head - will complete
+- [ ] iconv - will complete
+- [ ] id - will complete
+- [ ] join - will complete
+- [ ] kill - will complete
+- [ ] ln - will complete
+- [ ] locale - will complete
+- [ ] localedef - will complete
+- [ ] logger - will complete
+- [ ] logname - will complete
+- [ ] lp - basically unused, who prints things from tty?
+- [ ] ls - will complete
+- [ ] m4 - will complete
+- [ ] mailx - used to email, but I assume no one uses it
+- [ ] man - will complete
+- [ ] mesg - will complete
+- [ ] mkdir - will complete
+- [ ] mkfifo - will complete
+- [ ] mv - will complete
+- [ ] newgrp - will complete
+- [ ] nice - will complete
+- [ ] nohup - will complete
+- [ ] od - will complete
+- [ ] paste - will complete
+- [ ] patch - will complete
+- [ ] pathchk - will complete
+- [ ] pax - utility to detect and extract archives, out of scope
+- [ ] pr - will complete
+- [ ] printf - will complete
+- [ ] ps - will complete
+- [ ] pwd - will complete
+- [ ] read - will complete
+- [ ] renice - will complete
+- [ ] rm - will complete
+- [ ] rmdir - will complete
+- [ ] sed - will complete
+- [ ] sh - will complete
+- [ ] sleep - will complete
+- [ ] sort - will complete
+- [ ] split - will complete
+- [ ] strings - will complete
+- [ ] stty - will complete
+- [ ] tabs - will complete
+- [ ] tail - will complete
+- [ ] tee - will complete
+- [ ] test - will complete
+- [ ] time - will complete
+- [x] touch - complete
+- [ ] tput - will complete
+- [ ] tr - will complete
+- [ ] true - will complete
+- [ ] tsort - will complete
+- [ ] tty - will complete
+- [ ] umask - will complete
+- [ ] unalias - will complete
+- [ ] uname - will complete
+- [ ] unexpand - will complete
+- [ ] uniq - will complete
+- [ ] uudecode - will complete
+- [ ] uuencode - will complete
+- [ ] wait - will complete
+- [ ] wc - will complete
+- [x] whoami - complete
+- [ ] write - will complete
+- [ ] xargs - will complete
