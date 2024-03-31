@@ -13,7 +13,7 @@ int main (int argc, char** argv) {
 	}
 
 	for (int i = 1; i < argc; i++) {
-		int fd = open(argv[i], O_CREAT | O_WRONLY | O_EXCL);
+		int fd = open(argv[i], O_CREAT | O_WRONLY | O_EXCL, 0666);
 		if (fd < 0) {
 			perror(PROGRAM_NAME);
 			return 1;
