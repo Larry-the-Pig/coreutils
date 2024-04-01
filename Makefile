@@ -17,13 +17,11 @@ debug: CFLAGS += -g3 -Og
 debug: coreutils
 
 coreutils: $(OUT)
-	$(CC) -o $@ $^ $(LDFLAGS)
 
 bin/%:src/%.c
-	@mkdir bin/
-	$(CC) -o $@ -c $< $(CFLAGS)
+	$(CC) -o $@ $< $(CFLAGS) $(LDFLAGS)
 
 clean:
-	@rm -rf bin/
+	@rm -rf $(OUT)
 
 .PHONY: all clean
