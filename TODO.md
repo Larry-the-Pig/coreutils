@@ -32,7 +32,7 @@ Some commands won't be made because of complexity, this is reflected in the stat
 - [ ] diff - will complete
 - [ ] dirname - will complete
 - [ ] du - will complete
-- [ ] echo - in progress
+- [x] echo - complete
 - [ ] ed - no one uses ed
 - [ ] env - will complete
 - [ ] expand - will complete
