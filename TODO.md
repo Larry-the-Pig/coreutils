@@ -8,13 +8,13 @@ Some commands won't be made because of complexity, this is reflected in the stat
 
 - [ ] alias - for shell to handle
 - [ ] ar - essentially never used, tar is now used instead
-- [ ] at - will complete
+- [ ] at - was going to do, but then I realized it isn't included in base Ubuntu, so it clearly isn't used very often.
 - [ ] awk - plenty of sane implementations exist
 - [ ] basename - will complete
-- [ ] batch - will complete
+- [ ] batch - won't complete, see at
 - [ ] bc - will complete
 - [x] cat - complete
-- [ ] cd - will complete
+- [ ] cd - part of the shell
 - [ ] chgrp - will complete
 - [ ] chmod - will complete
 - [ ] chown - will complete
@@ -22,7 +22,7 @@ Some commands won't be made because of complexity, this is reflected in the stat
 - [ ] cmp - will complete
 - [ ] comm - will complete
 - [ ] command - will complete
-- [ ] cp - will complete
+- [ ] cp - in progress
 - [ ] crontab - no thanks
 - [ ] csplit - will complete
 - [ ] cut - will complete
