@@ -37,7 +37,7 @@ Some commands won't be made because of complexity, this is reflected in the stat
 - [ ] env - will complete
 - [ ] expand - will complete
 - [ ] expr - will complete
-- [ ] false - will complete
+- [x] false - complete
 - [ ] file - will complete
 - [ ] find - maybe will complete
 - [ ] fold - will complete
@@ -96,7 +96,7 @@ Some commands won't be made because of complexity, this is reflected in the stat
 - [x] touch - complete
 - [ ] tput - will complete
 - [ ] tr - will complete
-- [ ] true - will complete
+- [x] true - complete
 - [ ] tsort - will complete
 - [ ] tty - will complete
 - [ ] umask - will complete
