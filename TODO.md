@@ -4,6 +4,8 @@ Below is a list of required POSIX commands, and their current status.
 
 Some commands won't be made because of complexity, this is reflected in the status.
 
+Basic behavior is the only thing required for a check. Some commands have parameters that have not been implemented.
+
 ## List of POSIX commands (incomplete)
 
 - [ ] alias - for shell to handle
@@ -22,7 +24,7 @@ Some commands won't be made because of complexity, this is reflected in the stat
 - [ ] cmp - will complete
 - [ ] comm - will complete
 - [ ] command - will complete
-- [ ] cp - in progress
+- [x] cp - done (parameters currently ignored)
 - [ ] crontab - no thanks
 - [ ] csplit - will complete
 - [ ] cut - will complete
