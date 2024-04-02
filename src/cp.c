@@ -8,6 +8,8 @@
 #define PROGRAM_NAME "cp"
 #define BUFFER_SIZE 4096
 
+// this command is about 3x as slow as GNU cp, how is that possible?
+
 int main(int argc, char** argv) {
     if (argc < 3)
     return 1;
@@ -34,13 +36,10 @@ int main(int argc, char** argv) {
 
     while (nread = read(fd_from, buffer, BUFFER_SIZE), nread > 0)
     {
-        char* out_ptr = buffer;
-
         nwritten = write(fd_to, buffer, nread);
         if (nwritten == -1) {
             goto error;
         }
-        out_ptr += nwritten;
     }
 
     if (nread == -1) {
