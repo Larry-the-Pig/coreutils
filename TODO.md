@@ -100,7 +100,7 @@ Basic behavior is the only thing required for a check. Some commands have parame
 - [ ] tr - will complete
 - [x] true - complete
 - [ ] tsort - will complete
-- [ ] tty - will complete
+- [x] tty - complete
 - [ ] umask - will complete
 - [ ] unalias - will complete
 - [ ] uname - will complete
@@ -113,3 +113,16 @@ Basic behavior is the only thing required for a check. Some commands have parame
 - [x] whoami - complete
 - [ ] write - will complete
 - [ ] xargs - will complete
+
+## List of 100% completed commands (including params):
+
+- false
+- true
+- tty
+- whoami
+
+## List of 100% POSIX compliant commands:
+
+- false
+- true
+- tty
