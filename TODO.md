@@ -126,3 +126,4 @@ Basic behavior is the only thing required for a check. Some commands have parame
 - false
 - true
 - tty
+- cat
